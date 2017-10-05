@@ -1,0 +1,26 @@
+// Instructions: ...
+// Genetic Algorithm parameters:
+NUMBER_OF_INDIVIDUALS_IN_GENERATION = 50;
+NUMBER_OF_GENERATIONS = 2;
+DO_ARITHMETIC_CROSSOVER = 1;
+PROBABILITY_OF_CROSSOVER = 0.95;  // [0..1]
+PROBABILITY_OF_MUTATION = 0.15;   // [0..1]
+DO_ELITISM = 1;                   // 1 if true; 0 if false
+MUTATION_STRENGTH = 0.3;          // [0..1], should be a small number
+NUMBER_OF_GAMES_IN_TOURNAMENT = 5;
+NUMBER_OF_COEF_IN_EVAL_FUN        // is hard coded.
+DO_SIMULATION_OF_MOVEMENT = 0;
+SIMULATE_MOVE_DISTANCE = 3;
+MOVES_LOOK_FORWARD = 1;
+
+// Game parameters:
+PLAYER_COUNT = 3;     
+HORSE_COUNT = 5;      
+DISTANCE = 50;          
+POINTS_FOR_1_HORSE = 3;  
+POINTS_FOR_2_HORSE = 1; 
+
+// "Technical" attributes:
+WAIT_TIME = 0;              
+CONSOLE_OUTPUT = 0;           // 1 if true; 0 if false
+DISPLAY_PROGRESS = 1;         // 1 if true; 0 if false

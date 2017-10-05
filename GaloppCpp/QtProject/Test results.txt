@@ -1,0 +1,5 @@
+Tournament points:  Games: 1000
+Player 0 score: 1272;
+Player 1 score: 808;
+Player 2 score: 724;
+

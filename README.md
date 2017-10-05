@@ -6,4 +6,6 @@ For now, in folder GaloppCpp, you can find an example of an implemented Genetic 
 
 To open the project, you will need Qt IDE (open source package for Application development): https://info.qt.io/download-qt-for-application-development
 
+If for some reason there are problems to build a project, you can find built one in "Application" folder.
+
 You are welcome to contribute to an existing sub-project, as well as to introduce a new one.

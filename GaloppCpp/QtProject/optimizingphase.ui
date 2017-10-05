@@ -1,0 +1,736 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>OptimizingPhase</class>
+ <widget class="QDialog" name="OptimizingPhase">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>725</width>
+    <height>491</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>725</width>
+    <height>491</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>725</width>
+    <height>491</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>0</y>
+     <width>171</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="locale">
+    <locale language="Latvian" country="Latvia"/>
+   </property>
+   <property name="text">
+    <string>Optimizēšanas fāze</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>40</y>
+     <width>211</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+     <underline>true</underline>
+    </font>
+   </property>
+   <property name="locale">
+    <locale language="Latvian" country="Latvia"/>
+   </property>
+   <property name="text">
+    <string>Ģenētiskā algoritma parametri:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>90</y>
+     <width>211</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+     <underline>false</underline>
+    </font>
+   </property>
+   <property name="locale">
+    <locale language="Latvian" country="Latvia"/>
+   </property>
+   <property name="text">
+    <string>Indivīdu daudzums populācijā:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>120</y>
+     <width>211</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+     <underline>false</underline>
+    </font>
+   </property>
+   <property name="locale">
+    <locale language="Latvian" country="Latvia"/>
+   </property>
+   <property name="text">
+    <string>Paaudžu skaits:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>160</y>
+     <width>211</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+     <underline>false</underline>
+    </font>
+   </property>
+   <property name="locale">
+    <locale language="Latvian" country="Latvia"/>
+   </property>
+   <property name="text">
+    <string>Krustošanas veids:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>190</y>
+     <width>211</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+     <underline>false</underline>
+    </font>
+   </property>
+   <property name="locale">
+    <locale language="Latvian" country="Latvia"/>
+   </property>
+   <property name="text">
+    <string>Krustošanas vārbūtība:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>220</y>
+     <width>211</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+     <underline>false</underline>
+    </font>
+   </property>
+   <property name="locale">
+    <locale language="Latvian" country="Latvia"/>
+   </property>
+   <property name="text">
+    <string>Mutācijas vārbūtība:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>250</y>
+     <width>211</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+     <underline>false</underline>
+    </font>
+   </property>
+   <property name="locale">
+    <locale language="Latvian" country="Latvia"/>
+   </property>
+   <property name="text">
+    <string>Mutācijas stiprums:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>280</y>
+     <width>211</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+     <underline>false</underline>
+    </font>
+   </property>
+   <property name="locale">
+    <locale language="Latvian" country="Latvia"/>
+   </property>
+   <property name="text">
+    <string>Taisīt elitismu:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>310</y>
+     <width>211</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+     <underline>false</underline>
+    </font>
+   </property>
+   <property name="locale">
+    <locale language="Latvian" country="Latvia"/>
+   </property>
+   <property name="text">
+    <string>Spēļu daudzums turnīrā</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_11">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>360</y>
+     <width>211</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+     <underline>false</underline>
+    </font>
+   </property>
+   <property name="locale">
+    <locale language="Latvian" country="Latvia"/>
+   </property>
+   <property name="text">
+    <string>Domāšanas uz priekšu veids:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_12">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>390</y>
+     <width>221</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+     <underline>false</underline>
+    </font>
+   </property>
+   <property name="locale">
+    <locale language="Latvian" country="Latvia"/>
+   </property>
+   <property name="text">
+    <string>Attālums simulēšanas gadījumā:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="numberOfIndividualsLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>100</y>
+     <width>113</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="locale">
+    <locale language="Latvian" country="Latvia"/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="numberOfGenerationsLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>130</y>
+     <width>113</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="locale">
+    <locale language="Latvian" country="Latvia"/>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="crossoverTypeComboBox">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>170</y>
+     <width>111</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="locale">
+    <locale language="Latvian" country="Latvia"/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="crossoverProbabilityLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>200</y>
+     <width>113</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="locale">
+    <locale language="Latvian" country="Latvia"/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="mutationProbabilityLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>230</y>
+     <width>113</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="locale">
+    <locale language="Latvian" country="Latvia"/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="mutationStrengthLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>260</y>
+     <width>113</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="locale">
+    <locale language="Latvian" country="Latvia"/>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="doElitismCheckBox">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>290</y>
+     <width>21</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="numberOfGamesInTournamentLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>320</y>
+     <width>113</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="locale">
+    <locale language="Latvian" country="Latvia"/>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="doSimulationOfMovementCombBox">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>370</y>
+     <width>151</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="locale">
+    <locale language="Latvian" country="Latvia"/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="simulateDistanceLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>400</y>
+     <width>111</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="locale">
+    <locale language="Latvian" country="Latvia"/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="movesLookForwardLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>430</y>
+     <width>111</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="locale">
+    <locale language="Latvian" country="Latvia"/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_13">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>420</y>
+     <width>221</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+     <underline>false</underline>
+    </font>
+   </property>
+   <property name="locale">
+    <locale language="Latvian" country="Latvia"/>
+   </property>
+   <property name="text">
+    <string>Soļu uz priekšu skaits:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="defaultValuesPushButton">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>50</y>
+     <width>241</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Uzstādīt vērtības pēc noklusējuma</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="executeAlgorithmPushButton">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>160</y>
+     <width>171</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Veikt optimizēšanu</string>
+   </property>
+  </widget>
+  <widget class="QProgressBar" name="progressBar">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>240</y>
+     <width>211</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="value">
+    <number>0</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="progressLabel">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>210</y>
+     <width>231</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+   <property name="locale">
+    <locale language="Latvian" country="Latvia"/>
+   </property>
+   <property name="text">
+    <string>Algoritms izpildas. Lūdzu, gaidiet...</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="backPushButton">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>430</y>
+     <width>171</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Atgriezties atpakaļ</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="fileNameLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>120</y>
+     <width>261</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="locale">
+    <locale language="Latvian" country="Latvia"/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_15">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>80</y>
+     <width>261</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+     <underline>false</underline>
+    </font>
+   </property>
+   <property name="locale">
+    <locale language="Latvian" country="Latvia"/>
+   </property>
+   <property name="text">
+    <string>Faila nosaukums, kur saglabāt rezultātu:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="progressLabel_2">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>280</y>
+     <width>241</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+   <property name="locale">
+    <locale language="Latvian" country="Latvia"/>
+   </property>
+   <property name="text">
+    <string>*Lai pārtrauktu izpildīšanu, Jūs varat</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="progressLabel_3">
+   <property name="geometry">
+    <rect>
+     <x>437</x>
+     <y>300</y>
+     <width>241</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+   <property name="locale">
+    <locale language="Latvian" country="Latvia"/>
+   </property>
+   <property name="text">
+    <string>pārtraukt procesu. Tomēr rezultāti</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="progressLabel_4">
+   <property name="geometry">
+    <rect>
+     <x>437</x>
+     <y>320</y>
+     <width>241</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+   <property name="locale">
+    <locale language="Latvian" country="Latvia"/>
+   </property>
+   <property name="text">
+    <string>būs pazaudēti.</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="progressLabel_5">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>350</y>
+     <width>271</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+   <property name="locale">
+    <locale language="Latvian" country="Latvia"/>
+   </property>
+   <property name="text">
+    <string>*Ja parādās &quot;Not responding&quot;, tad viss ir</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="progressLabel_6">
+   <property name="geometry">
+    <rect>
+     <x>437</x>
+     <y>370</y>
+     <width>261</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+   <property name="locale">
+    <locale language="Latvian" country="Latvia"/>
+   </property>
+   <property name="text">
+    <string>kārtībā - saskarne būs neaktīva, kamēr </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="progressLabel_7">
+   <property name="geometry">
+    <rect>
+     <x>437</x>
+     <y>390</y>
+     <width>261</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+   <property name="locale">
+    <locale language="Latvian" country="Latvia"/>
+   </property>
+   <property name="text">
+    <string>izpildas kārtējā iterācija.</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
