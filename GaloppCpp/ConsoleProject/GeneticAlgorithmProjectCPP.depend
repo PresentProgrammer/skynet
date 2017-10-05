@@ -1,0 +1,421 @@
+# depslib dependency file v1.0
+1428799474 source:c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp\humanplayer.cpp
+	"Player.h"
+	<iostream>
+
+1429113907 c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp\player.h
+	"Console.h"
+	<vector>
+	<cstdlib>
+
+1428799478 source:c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp\player.cpp
+	"Player.h"
+	<iostream>
+
+1428799480 source:c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp\randomplayer.cpp
+	"Player.h"
+	<cstdlib>
+
+1429132739 source:c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp\evaluationfunctionplayer.cpp
+	"Player.h"
+	"Game.h"
+	<iostream>
+	<fstream>
+
+1429181590 source:c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp\main.cpp
+	<iostream>
+	<stdlib.h>
+	<time.h>
+	<vector>
+	<fstream>
+	"Player.h"
+	"Game.h"
+	"Tournament.h"
+	"GeneticAlgorithm.h"
+
+1429126033 c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp\game.h
+	"Player.h"
+	<vector>
+
+1429135350 source:c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp\game.cpp
+	"Game.h"
+	"Console.h"
+	<stdlib.h>
+
+1428799452 c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp\console.h
+	<vector>
+	<string>
+
+1429179976 source:c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp\console.cpp
+	"Console.h"
+	<iostream>
+	<fstream>
+	<sstream>
+	<cstdlib>
+
+1428799484 source:c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp\tournament.cpp
+	"Tournament.h"
+
+1428799484 c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp\tournament.h
+	"Game.h"
+	<vector>
+
+1429178392 source:c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp\geneticalgorithm.cpp
+	"GeneticAlgorithm.h"
+	<cstdlib>
+	<algorithm>
+	<ctime>
+	<fstream>
+
+1429177438 c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp\geneticalgorithm.h
+	"Tournament.h"
+	<vector>
+
+1428494970 source:c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp_v08.04.2015_v2\console.cpp
+	"Console.h"
+	<iostream>
+	<fstream>
+
+1428494970 c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp_v08.04.2015_v2\console.h
+	<vector>
+
+1428494972 source:c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp_v08.04.2015_v2\evaluationfunctionplayer.cpp
+	"Player.h"
+	<iostream>
+
+1428494988 c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp_v08.04.2015_v2\player.h
+	"Console.h"
+	<vector>
+	<cstdlib>
+
+1428494974 source:c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp_v08.04.2015_v2\game.cpp
+	"Game.h"
+	"Console.h"
+	<stdlib.h>
+
+1428494976 c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp_v08.04.2015_v2\game.h
+	"Player.h"
+	<vector>
+
+1428494978 source:c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp_v08.04.2015_v2\geneticalgorithm.cpp
+	"GeneticAlgorithm.h"
+	<cstdlib>
+	<algorithm>
+	<ctime>
+	<fstream>
+
+1428494980 c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp_v08.04.2015_v2\geneticalgorithm.h
+	"Tournament.h"
+	<vector>
+
+1428494992 c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp_v08.04.2015_v2\tournament.h
+	"Game.h"
+	<vector>
+
+1428494984 source:c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp_v08.04.2015_v2\humanplayer.cpp
+	"Player.h"
+	<iostream>
+
+1428494988 source:c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp_v08.04.2015_v2\player.cpp
+	"Player.h"
+	<iostream>
+
+1428494990 source:c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp_v08.04.2015_v2\randomplayer.cpp
+	"Player.h"
+	<cstdlib>
+
+1428494992 source:c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp_v08.04.2015_v2\tournament.cpp
+	"Tournament.h"
+
+1428494986 source:c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp_v08.04.2015_v2\main.cpp
+	<iostream>
+	<stdlib.h>
+	<time.h>
+	<vector>
+	"Player.h"
+	"Game.h"
+	"Tournament.h"
+	"GeneticAlgorithm.h"
+
+1428554798 source:c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp_v09.04.2015_v2\console.cpp
+	"Console.h"
+	<iostream>
+	<fstream>
+
+1428554800 c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp_v09.04.2015_v2\console.h
+	<vector>
+
+1428600174 source:c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp_v09.04.2015_v2\evaluationfunctionplayer.cpp
+	"Player.h"
+	<iostream>
+	<fstream>
+
+1428600401 c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp_v09.04.2015_v2\player.h
+	"Console.h"
+	<vector>
+	<cstdlib>
+
+1428554804 source:c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp_v09.04.2015_v2\game.cpp
+	"Game.h"
+	"Console.h"
+	<stdlib.h>
+
+1428554806 c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp_v09.04.2015_v2\game.h
+	"Player.h"
+	<vector>
+
+1428554812 source:c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp_v09.04.2015_v2\geneticalgorithm.cpp
+	"GeneticAlgorithm.h"
+	<cstdlib>
+	<algorithm>
+	<ctime>
+	<fstream>
+
+1428554812 c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp_v09.04.2015_v2\geneticalgorithm.h
+	"Tournament.h"
+	<vector>
+
+1428554830 c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp_v09.04.2015_v2\tournament.h
+	"Game.h"
+	<vector>
+
+1428554820 source:c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp_v09.04.2015_v2\humanplayer.cpp
+	"Player.h"
+	<iostream>
+
+1428600416 source:c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp_v09.04.2015_v2\player.cpp
+	"Player.h"
+	<iostream>
+
+1428554826 source:c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp_v09.04.2015_v2\randomplayer.cpp
+	"Player.h"
+	<cstdlib>
+
+1428554828 source:c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp_v09.04.2015_v2\tournament.cpp
+	"Tournament.h"
+
+1428656356 source:c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp_v09.04.2015_v2\main.cpp
+	<iostream>
+	<stdlib.h>
+	<time.h>
+	<vector>
+	"Player.h"
+	"Game.h"
+	"Tournament.h"
+	"GeneticAlgorithm.h"
+
+1428753621 source:c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp_v10.04.2015_v1\console.cpp
+	"Console.h"
+	<iostream>
+	<fstream>
+	<sstream>
+	<cstdlib>
+
+1428753516 c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp_v10.04.2015_v1\console.h
+	<vector>
+	<string>
+
+1428600174 source:c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp_v10.04.2015_v1\evaluationfunctionplayer.cpp
+	"Player.h"
+	<iostream>
+	<fstream>
+
+1428600401 c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp_v10.04.2015_v1\player.h
+	"Console.h"
+	<vector>
+	<cstdlib>
+
+1428554804 source:c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp_v10.04.2015_v1\game.cpp
+	"Game.h"
+	"Console.h"
+	<stdlib.h>
+
+1428554806 c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp_v10.04.2015_v1\game.h
+	"Player.h"
+	<vector>
+
+1428554812 source:c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp_v10.04.2015_v1\geneticalgorithm.cpp
+	"GeneticAlgorithm.h"
+	<cstdlib>
+	<algorithm>
+	<ctime>
+	<fstream>
+
+1428554812 c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp_v10.04.2015_v1\geneticalgorithm.h
+	"Tournament.h"
+	<vector>
+
+1428554830 c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp_v10.04.2015_v1\tournament.h
+	"Game.h"
+	<vector>
+
+1428554820 source:c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp_v10.04.2015_v1\humanplayer.cpp
+	"Player.h"
+	<iostream>
+
+1428600416 source:c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp_v10.04.2015_v1\player.cpp
+	"Player.h"
+	<iostream>
+
+1428554826 source:c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp_v10.04.2015_v1\randomplayer.cpp
+	"Player.h"
+	<cstdlib>
+
+1428554828 source:c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp_v10.04.2015_v1\tournament.cpp
+	"Tournament.h"
+
+1428785909 source:c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp_v10.04.2015_v1\main.cpp
+	<iostream>
+	<stdlib.h>
+	<time.h>
+	<vector>
+	<fstream>
+	"Player.h"
+	"Game.h"
+	"Tournament.h"
+	"GeneticAlgorithm.h"
+
+1429146660 source:c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp_v16.04.2015\console.cpp
+	"Console.h"
+	<iostream>
+	<fstream>
+	<sstream>
+	<cstdlib>
+
+1429259152 c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp_v16.04.2015\console.h
+	<vector>
+	<string>
+
+1429146662 source:c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp_v16.04.2015\evaluationfunctionplayer.cpp
+	"Player.h"
+	"Game.h"
+	<iostream>
+	<fstream>
+
+1429146680 c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp_v16.04.2015\player.h
+	"Console.h"
+	<vector>
+	<cstdlib>
+
+1429146664 c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp_v16.04.2015\game.h
+	"Player.h"
+	<vector>
+
+1429146664 source:c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp_v16.04.2015\game.cpp
+	"Game.h"
+	"Console.h"
+	<stdlib.h>
+
+1429146668 source:c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp_v16.04.2015\geneticalgorithm.cpp
+	"GeneticAlgorithm.h"
+	<cstdlib>
+	<algorithm>
+	<ctime>
+	<fstream>
+
+1429146670 c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp_v16.04.2015\geneticalgorithm.h
+	"Tournament.h"
+	<vector>
+
+1429146686 c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp_v16.04.2015\tournament.h
+	"Game.h"
+	<vector>
+
+1429146676 source:c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp_v16.04.2015\humanplayer.cpp
+	"Player.h"
+	<iostream>
+
+1429146680 source:c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp_v16.04.2015\player.cpp
+	"Player.h"
+	<iostream>
+
+1429146682 source:c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp_v16.04.2015\randomplayer.cpp
+	"Player.h"
+	<cstdlib>
+
+1429146684 source:c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp_v16.04.2015\tournament.cpp
+	"Tournament.h"
+
+1429227955 source:c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp_v16.04.2015\main.cpp
+	<iostream>
+	<stdlib.h>
+	<time.h>
+	<vector>
+	<fstream>
+	"Player.h"
+	"Game.h"
+	"Tournament.h"
+	"GeneticAlgorithm.h"
+
+1429430736 source:c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp_v19.04.2015\console.cpp
+	"Console.h"
+	<iostream>
+	<fstream>
+	<sstream>
+	<cstdlib>
+
+1429430738 c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp_v19.04.2015\console.h
+	<vector>
+	<string>
+
+1429430738 source:c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp_v19.04.2015\evaluationfunctionplayer.cpp
+	"Player.h"
+	"Game.h"
+	<iostream>
+	<fstream>
+
+1429430758 c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp_v19.04.2015\player.h
+	"Console.h"
+	<vector>
+	<cstdlib>
+
+1429430744 c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp_v19.04.2015\game.h
+	"Player.h"
+	<vector>
+
+1429430740 source:c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp_v19.04.2015\game.cpp
+	"Game.h"
+	"Console.h"
+	<stdlib.h>
+
+1429430746 source:c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp_v19.04.2015\geneticalgorithm.cpp
+	"GeneticAlgorithm.h"
+	<cstdlib>
+	<algorithm>
+	<ctime>
+	<fstream>
+
+1429430748 c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp_v19.04.2015\geneticalgorithm.h
+	"Tournament.h"
+	<vector>
+
+1429430768 c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp_v19.04.2015\tournament.h
+	"Game.h"
+	<vector>
+
+1429430752 source:c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp_v19.04.2015\humanplayer.cpp
+	"Player.h"
+	<iostream>
+
+1429430758 source:c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp_v19.04.2015\player.cpp
+	"Player.h"
+	<iostream>
+
+1429430760 source:c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp_v19.04.2015\randomplayer.cpp
+	"Player.h"
+	<cstdlib>
+
+1429430766 source:c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp_v19.04.2015\tournament.cpp
+	"Tournament.h"
+
+1429595157 source:c:\rtu\studijas\4_2\risinajumu datorizeta apstrade\kursa darbs\c++\geneticalgorithmprojectcpp_v19.04.2015\main.cpp
+	<iostream>
+	<stdlib.h>
+	<time.h>
+	<vector>
+	<fstream>
+	"Player.h"
+	"Game.h"
+	"Tournament.h"
+	"GeneticAlgorithm.h"
+

@@ -1,0 +1,38 @@
+0.508958
+0.139481
+0.0336556
+0.00482863
+-0.341603
+0.112519
+0.0537698
+0.452128
+-0.0944806
+0.0995668
+0.525376
+0.246496
+0.642235
+0.253344
+0.0116197
+-0.0101921
+
+# Parameters, that were used:
+#   Genetic Algorithm parameters:
+#     NUMBER_OF_INDIVIDUALS_IN_GENERATION = 2000
+#     NUMBER_OF_GENERATIONS = 100
+#     DO_ARITHMETIC_CROSSOVER = 0
+#     PROBABILITY_OF_CROSSOVER = 0.95
+#     PROBABILITY_OF_MUTATION = 0.15
+#     DO_ELITISM = 1
+#     MUTATION_STRENGTH = 0.3
+#     NUMBER_OF_GAMES_IN_TOURNAMENT = 5
+#     NUMBER_OF_COEF_IN_EVAL_FUN = 16
+#     DO_SIMULATION_OF_MOVEMENT = 1  // if = 1 the horses that are avalilable to move will be moved forward for SIMULATE_MOVE_DISTANCE fields to evaluate the move.
+#     SIMULATE_MOVE_DISTANCE = 3
+#     MOVES_LOOK_FORWARD = 1
+#
+#   Game parameters:
+#     PLAYER_COUNT = 3
+#     HORSE_COUNT = 5
+#     DISTANCE = 50
+#     POINTS_FOR_1_HORSE = 3
+#     POINTS_FOR_2_HORSE = 1
