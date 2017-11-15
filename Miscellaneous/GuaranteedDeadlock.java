@@ -1,33 +1,45 @@
 class Main {
 
+  private static final boolean TURNED_OFF = false;
+
   public static void main(final String... args) {
+    final Object firstLock = new Object();
+    final Object secondLock = new Object();
+    final CustomSemaphore semaphore = new CustomSemaphore(TURNED_OFF);
     System.out.println("See how the threads never finish...");
-    final Object lock = new Object();
-    synchronized (lock) {
-      final Thread lockedThread = new Thread(new DeadlockRunnable(lock));
+
+    synchronized (firstLock) {
+      final Thread lockedThread = new Thread(new DeadlockRunnable(firstLock, secondLock, semaphore));
       lockedThread.start();
-      try {
-        lockedThread.join();
-      } catch (final InterruptedException e) {
-        e.printStackTrace();
+      while (semaphore.forbidToGo()) {
+        Thread.yield();
       }
-      Message.finishingThread();
+      synchronized (secondLock) {
+        Message.finishingThread();
+      }
     }
   }
 }
 
 class DeadlockRunnable implements Runnable {
 
-  private final Object lock;
+  private final Object firstLock;
+  private final Object secondLock;
+  private final CustomSemaphore semaphore;
 
-  DeadlockRunnable(final Object lock) {
-    this.lock = lock;
+  DeadlockRunnable(final Object firstLock, final Object secondLock, final CustomSemaphore semaphore) {
+    this.firstLock = firstLock;
+    this.secondLock = secondLock;
+    this.semaphore = semaphore;
   }
 
   @Override
   public void run() {
-    synchronized (lock) {
-      Message.finishingThread();
+    synchronized (secondLock) {
+      semaphore.turnOn();
+      synchronized (firstLock) {
+        Message.finishingThread();
+      }
     }
   }
 }
@@ -39,18 +51,19 @@ class Message {
   }
 }
 
+class CustomSemaphore {
 
+  private boolean go;
 
+  CustomSemaphore(final boolean go) {
+    this.go = go;
+  }
 
+  void turnOn() {
+    go = true;
+  }
 
-
-
-
-
-
-
-
-
-
-
-
+  boolean forbidToGo() {
+    return !go;
+  }
+}
